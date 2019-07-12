@@ -1,5 +1,5 @@
 {
-  "name": "@jaron/instantiate",
+  "name": "@jaronschut/instantiate",
   "version": "0.0.1",
   "description": "Service instantiation utility with intention to make dependencies injectable without the use of Rewire for testing",
   "main": "index.js",
