@@ -1,0 +1,25 @@
+{
+  "name": "@jaron/instantiate",
+  "version": "0.0.1",
+  "description": "Service instantiation utility with intention to make dependencies injectable without the use of Rewire for testing",
+  "main": "index.js",
+  "scripts": {
+    "test": "nyc --reporter=lcov --reporter=html --reporter=text mocha --exit --reporter mocha-multi-reporters --reporter-options configFile=config.json"
+  },
+  "keywords": [
+    "Rewire",
+    "Services",
+    "Testing"
+  ],
+  "author": "Jaron Schut",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "6.0.1",
+    "eslint-plugin-mocha": "5.3.0",
+    "mocha": "6.1.4",
+    "mocha-multi-reporters": "1.1.7",
+    "mocha-simple-html-reporter": "1.1.0",
+    "nyc": "14.1.1",
+    "sinon": "7.3.2"
+  }
+}
